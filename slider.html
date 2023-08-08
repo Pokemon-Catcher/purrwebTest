@@ -15,8 +15,8 @@
     </div>
         <div class="slider__image-wrapper">
             <div class="slider__image-container">
-                <img class="slider__image" src="./static/images/1.jpg">
-                <img class="slider__image"  src="./static/images/2.jpg">
+                <img class="slider__image" src="./static/images/1.webp">
+                <img class="slider__image"  src="./static/images/2.png">
                 <img class="slider__image"  src="./static/images/3.png">
                 <img class="slider__image"  src="./static/images/4.jpg">
                 <img class="slider__image"  src="./static/images/5.jpg">
@@ -35,5 +35,43 @@
         </div>
     </div>
 </div>
+
+<div class="slider">
+    <div class="slider__control-container">
+        <button class="slider__control-container__button" onclick="handlerPrevSlide(event)">←</button>
+    </div>
+        <div class="slider__image-wrapper">
+            <div class="slider__image-container">
+                <img class="slider__image" src="./static/images/1.webp">
+            </div>
+        </div>
+        <div class="slider__control-container">
+            <button class="slider__control-container__button" onclick="handlerNextSlide(event)">→</button>
+        </div>
+        <div class="slider__footer">
+            <button class="slider__footer__pageButton" page="1" onclick="handlerToPage(event)">•</button>
+        </div>
+    </div>
+</div>
+
+<div class="slider">
+    <div class="slider__control-container">
+        <button class="slider__control-container__button" onclick="handlerPrevSlide(event)">←</button>
+    </div>
+        <div class="slider__image-wrapper">
+            <div class="slider__image-container">
+                <img class="slider__image" src="./static/images/2.png">
+                <img class="slider__image" src="./static/images/3.png">
+            </div>
+        </div>
+        <div class="slider__control-container">
+            <button class="slider__control-container__button" onclick="handlerNextSlide(event)">→</button>
+        </div>
+        <div class="slider__footer">
+            <button class="slider__footer__pageButton" page="1" onclick="handlerToPage(event)">•</button>
+        </div>
+    </div>
+</div>
+
 <script src="./slider/slider.js"></script>
 </body>
